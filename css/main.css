@@ -13,6 +13,7 @@ body {
 	color: #2b2b2b;
 }
 
+
 #about, #work, #contact {
     height: 600px;
 }
@@ -90,17 +91,10 @@ header h2 span {
 }
 
 #about h2 {
-	font-family: 'Lora', serif;
-	font-size: 36px;
-	padding-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
 }
-/*
-#about img {
-    height: 150px;
-    float: right;
-    margin-top: -50px;
-    padding-right: 200px;
-}*/
+
 #about img {
     height: 100px;
     border-radius: 100px;
@@ -119,7 +113,7 @@ header h2 span {
 }
 
 
-/***** WORK *****/
+/***** WEB DESIGN *****/
 
 #work {
 	background-color: #f9ceb7;
@@ -132,6 +126,11 @@ header h2 span {
 
 #work img {
 	padding-bottom: 30px;
+}
+
+#work h2 {
+    text-align: left;
+    padding: 20px 0 0 50px;
 }
 
 #work h3 {
@@ -147,6 +146,7 @@ header h2 span {
     line-height: 30px;
     padding: 0 50px;
 }
+
 
 /***** CONTACT *****/
 
